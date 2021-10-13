@@ -1,0 +1,12 @@
+print("Esse programa trata-se de uma calculadora. ")
+valor1 = input("Digite o primeiro valor: ")
+valor2 = input("Digite o segundo valor: ")
+soma = float(valor1) + float(valor2)
+print("A soma dos dois valores é {}".format(soma))
+subtracao = float(valor1) - float(valor2)
+print("A subtração dos dois valores é {}".format(subtracao))
+divisao = float(valor1) / float(valor2)
+print("A divisão entre os valores é {}".format(divisao))
+multiplicacao = float(valor1) * float(valor2)
+print("A multiplicação entre os valores é {}".format(multiplicacao))
+
